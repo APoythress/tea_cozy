@@ -98,6 +98,7 @@ h4 {
   width: 1000px;
   text-align: center;
   font-family: inherit;
+  margin: 10px auto;
 }
 
 .two {
@@ -117,7 +118,6 @@ h4 {
 .image {
   height: 200px;
   width: 300px;
-  border: 1px solid white;
   object-fit: cover;
 }
 
