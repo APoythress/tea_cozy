@@ -1,8 +1,10 @@
+/* Header Section */
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
+  position: static;
   background-color: black;
   height: 69px;
   z-index: 5;
@@ -29,4 +31,31 @@ nav {
 a {
   color: seashell;
   text-decoration: underline;
+}
+
+body {
+  background-color: black;
+}
+
+/* Banner with Mission */
+
+.banner span {
+  background-image: url('../images/mission.jpg');
+  height: 700px;
+  width: 1200px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 1px solid black;
+
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
 }
