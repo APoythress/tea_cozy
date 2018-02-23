@@ -130,3 +130,48 @@ h4 {
 .text {
   width: inherit;
 }
+
+/* Locations Section */
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 95px;
+  margin: auto;
+  background-image: url('../images/locations.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 1200px;
+}
+
+.lo-row {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+}
+
+.title {
+  display: flex;
+  padding: 0;
+}
+
+h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  width: 300px;
+  text-align: center;
+  background-color: black;
+  opacity: 1;
+}
