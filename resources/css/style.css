@@ -175,3 +175,25 @@ h2 {
   background-color: black;
   opacity: 1;
 }
+
+/* Footer Section */
+
+.container {
+
+}
+
+.company_info {
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+  position: relative;
+  top: 95px;
+  margin: 0 auto;
+}
+
+.copyright {
+  position: relative;
+  top: 95px;
+  padding-left: 20px;
+}
